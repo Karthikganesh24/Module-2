@@ -27,9 +27,19 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 ---
 
 ## 🧪 Program
-Add Code Here
+```
+import math
+rows = int(input("Enter the number of rows: "))
+for n in range(rows):
+    print(' ' * (rows - n), end=' ')
+    for k in range(n + 1):
+        value = math.comb(n, k)
+        print(value, end=' ')
+    print()
 
+```
 ## Sample Output
+![image](https://github.com/user-attachments/assets/913819b0-8b50-4e64-9344-22600577e79f)
 
 ## Result
-
+Thus the above program was executed successfully.
