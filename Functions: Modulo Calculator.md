@@ -1,3 +1,4 @@
+
 # Functions in Python: Modulo Calculator
 
 ## 🎯 Aim
@@ -12,15 +13,21 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 ```
-def result(a, b):
-    modulo = a % b
-    print("The modulo is:", modulo)
-x = int(input("Enter the first number: "))
-y = int(input("Enter the second number: "))
-result(x, y)
+def result(a,b):
+        return a%b
+try:
+    a=int(input())
+    b=int(input())    
+    
+    if b==0:
+        print("a is not allowed to divide by b")
+    else:
+        modulo=result(a,b)
+        print("modulo is",modulo)
+except value:        
+           print("please enter the correct value")
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/0a35ef98-1ed7-4529-b36a-ea3603997704)
-
+![Screenshot 2025-04-29 113904](https://github.com/user-attachments/assets/d5413abb-ea53-49dd-b3f2-2360c687e37f)
 ## Result
-Thus the above program was executed successfully.
+Thus, the python program was executed successfully
